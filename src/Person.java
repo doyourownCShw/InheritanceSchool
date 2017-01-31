@@ -18,7 +18,4 @@ public class Person {
     public String getUserName() {
         return uName;
     }
-    public String toString() {
-        return fName + " " + lName + " (" + uName + ")";
-    }
 }

@@ -30,8 +30,4 @@ public class Professor extends Person {
         if (funnyFactor >= 0 && funnyFactor <= 1)
             this.funnyFactor = funnyFactor;
     }
-
-    public String toString() {
-        return "Prof. " + super.toString() + " Average GPA: " + averageGPA + " Funny Factor: " + funnyFactor; //accesses the already-complete toString in Person
-    }
 }
