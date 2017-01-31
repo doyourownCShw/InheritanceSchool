@@ -27,7 +27,8 @@ public class Professor extends Person {
             averageGPA = 2.0;
     }
     public void setFunnyFactor(int funnyFactor) {
-        this.funnyFactor = funnyFactor;
+        if (funnyFactor >= 0 && funnyFactor <= 1)
+            this.funnyFactor = funnyFactor;
     }
 
     public String toString() {
