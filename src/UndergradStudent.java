@@ -1,5 +1,5 @@
 public class UndergradStudent extends Student {
-    private int hope = 100;
+    private int hope = 100; //initial hope = 0
     private int pizza;
 
     public UndergradStudent(String f, String l, String u, int sH, int nSH, int pizzaInitial) {
