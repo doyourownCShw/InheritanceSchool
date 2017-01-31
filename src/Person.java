@@ -1,6 +1,3 @@
-/**
- * first class, Person. Basic user.
- */
 public class Person {
     private String fName; //first name
     private String lName; //last name

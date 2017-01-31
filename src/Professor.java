@@ -1,6 +1,3 @@
-/**
- * second class, Professor. Subclass of Person.
- */
 public class Professor extends Person {
     private double funnyFactor; //range [0,1]
     private double averageGPA;
