@@ -3,9 +3,9 @@
 
 Things that still need to be done:
 -
-Client class to test the program
+Client class to "test" the program
 
 "Default"/random assignment of values for certain restricted variables
 
 
-**All of these things should be accomplished with great ease**
+**All of these things can be accomplished with great ease**
