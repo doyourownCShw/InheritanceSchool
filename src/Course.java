@@ -11,7 +11,8 @@ public class Course {
         title = t;
         professor = p;
         headTA = hT;
-        TAs = tA;
+        if (tA.length <= 15)
+            TAs = tA;
         students = sT;
     }
 
@@ -31,6 +32,7 @@ public class Course {
         return students;
     }
     public void addStudent(Student s) {
-        students.add(s);
+        if (students.size() + 1 <= 300)
+            students.add(s);
     }
 }
