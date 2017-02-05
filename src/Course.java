@@ -32,7 +32,7 @@ public class Course {
         return students;
     }
     public void addStudent(Student s) {
-        if (students.size() + 1 <= 300)
+        if (students.size() < 300) //limit course to 300 students
             students.add(s);
     }
 }
