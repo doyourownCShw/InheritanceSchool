@@ -23,7 +23,7 @@ public class UndergradStudent extends Student {
         return pizza;
     }
     public void eatPizza(int pizzas) {
-        if (pizzas >= 0)
+        if (pizzas >= 0) //can only add pizza
             pizza += pizzas;
     }
 }
