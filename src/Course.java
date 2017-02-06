@@ -1,9 +1,5 @@
 import java.util.*;
 
-/**
- * uses all other classes
- */
-
 public class Course {
     private String title;
     private Professor professor;
