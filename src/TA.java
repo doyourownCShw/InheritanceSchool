@@ -32,19 +32,13 @@ public class TA extends UndergradStudent {
     public void setExamScore(double examScore) {
         if (examScore >= 0 && examScore <= 1)
             this.examScore = examScore;
-        else
-            this.examScore = Math.random();
     }
     public void setRecitationScore(double recitationScore) {
         if (recitationScore >= 0 && recitationScore <= 1)
             this.recitationScore = recitationScore;
-        else
-            this.recitationScore = Math.random();
     }
     public void setOfficeHoursScore(double officeHoursScore) {
         if (officeHoursScore >= 0 && officeHoursScore <= 1)
             this.officeHoursScore = officeHoursScore;
-        else
-            this.officeHoursScore = Math.random();
     }
 }

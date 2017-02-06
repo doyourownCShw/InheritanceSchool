@@ -6,8 +6,12 @@ public class Student extends Person {
         super(f,l,u);
         if (sH >= 0)
             studyHours = sH;
+        else
+            studyHours = (int)(Math.random() * 30); //random, max 30
         if (nSH >= 0)
             nonStudyHours = nSH;
+        else
+            nonStudyHours = (int)(Math.random() * 30); //random, max 30
     }
 
     public int getStudyHours() {

@@ -13,6 +13,8 @@ public class Course {
         headTA = hT;
         if (tA.length <= 15)
             TAs = tA;
+        else
+            TAs = new TA[15]; //tA fell outside length requirement, force length 15
         students = sT;
     }
 

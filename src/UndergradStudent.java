@@ -6,6 +6,8 @@ public class UndergradStudent extends Student {
         super(f,l,u,sH,nSH);
         if (pizzaInitial >= 0)
             pizza = pizzaInitial;
+        else
+            pizza = (int)(Math.random() * 20); //random, max 20
     }
 
     public int getHope() {
