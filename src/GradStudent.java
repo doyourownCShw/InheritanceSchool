@@ -4,6 +4,6 @@ public class GradStudent extends Student {
     }
 
     public void relax(int hours) {
-        System.out.println("NO RELAX. STUDY."); //override relax method to enforce no relaxing rule
+        //override relax method to enforce no relaxing rule
     }
 }
