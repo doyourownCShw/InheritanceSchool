@@ -3,8 +3,8 @@ public class TA extends UndergradStudent {
     private double recitationScore;
     double officeHoursScore;
 
-    public TA(String f, String l, String u, int sH, int nSH, int pizzaInitial, double eS, double rS, double oHS) {
-        super(f,l,u,sH,nSH,pizzaInitial);
+    public TA(String f, String l, String u, int sH, int nSH, double eS, double rS, double oHS) {
+        super(f,l,u,sH,nSH);
         if (eS >= 0 && eS <= 1)
             examScore = eS;
         else
