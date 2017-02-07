@@ -15,16 +15,16 @@ public class Professor extends Person {
     }
 
     public double getFunnyFactor() {
-        return averageGPA;
+        return funnyFactor;
     }
     public double getAverageGPA() {
         return averageGPA;
     }
-    public void setGPA(int gpa) {
+    public void setGPA(double gpa) {
         if (gpa >= 0 && gpa <= 4)
             averageGPA = gpa;
     }
-    public void setFunnyFactor(int funnyFactor) {
+    public void setFunnyFactor(double funnyFactor) {
         if (funnyFactor >= 0 && funnyFactor <= 1)
             this.funnyFactor = funnyFactor;
     }
