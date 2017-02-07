@@ -1,13 +1,9 @@
 public class UndergradStudent extends Student {
     private int hope = 100; //initial hope = 0
-    private int pizza;
+    private int pizza = 0; //initial 0
 
-    public UndergradStudent(String f, String l, String u, int sH, int nSH, int pizzaInitial) {
+    public UndergradStudent(String f, String l, String u, int sH, int nSH) {
         super(f,l,u,sH,nSH);
-        if (pizzaInitial >= 0)
-            pizza = pizzaInitial;
-        else
-            pizza = (int)(Math.random() * 20); //random, max 20
     }
 
     public int getHope() {
