@@ -33,6 +33,15 @@ public class Course {
     public ArrayList<Student> getStudents() {
         return students;
     }
+    public double getAverageStudyPercentage() {
+        int totalS = 0;
+        int totalNS = 0;
+        for (Student i : students) {
+            totalS += i.getStudyHours();
+            totalNS += i.getNonStudyHours();
+        }
+        return (double)totalS / (totalS + totalNS);
+    }
     public void addStudent(Student s) {
         if (students.size() < 300) //limit course to 300 students
             students.add(s);
